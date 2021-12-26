@@ -13,7 +13,7 @@ class Functor f where
 
 ### Смысл
 
-![](img/smys.png)
+![](smys.png)
 
 Это просто map как для списков, но не только для списков, а для любого контейнера, которому сделаем instal Functor.
 
@@ -33,7 +33,7 @@ instance Functor [] where
 fmap _ []     = []
 fmap f (x:xs) = f x : f x : fmap f xs
 
-![](img/14H-2.png)
+![](14H-2.png)
 
 <hr/>
 
